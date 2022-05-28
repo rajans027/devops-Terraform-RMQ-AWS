@@ -3,7 +3,7 @@
       hosts: tag_group_rmq
       tasks:
 
-        - name: install RMQ
+        - name: install Rmq
           become: yes
           shell: |
             apt-get update -y
